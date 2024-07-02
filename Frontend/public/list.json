@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Story Book",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.pexels.com/photos/459791/pexels-photo-459791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 2,
+    "name": "Comedy Book",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "price": 0,
+    "category": "Entertainment",
+    "image": "https://images.pexels.com/photos/3747163/pexels-photo-3747163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 3,
+    "name": "Vlogging Book",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "price": 30,
+    "category": "Free",
+    "image": "https://images.pexels.com/photos/1714425/pexels-photo-1714425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 4,
+    "name": "Content Book",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "price": 75,
+    "category": "Fun",
+    "image": "https://images.pexels.com/photos/2623829/pexels-photo-2623829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 5,
+    "name": "Drama Book",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "price": 40,
+    "category": "Free",
+    "image": "https://images.pexels.com/photos/459791/pexels-photo-459791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 6,
+    "name": "Play Book",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "price": 100,
+    "category": "Mazak",
+    "image": "https://images.pexels.com/photos/1181599/pexels-photo-1181599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 7,
+    "name": "Sport Book",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "price": 150,
+    "category": "Free",
+    "image": "https://images.pexels.com/photos/1181599/pexels-photo-1181599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 8,
+    "name": "Food Book",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "price": 60,
+    "category": "Free",
+    "image": "https://images.pexels.com/photos/2861798/pexels-photo-2861798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 9,
+    "name": "Cartoon Book",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "price": 40,
+    "category": "Cartoon",
+    "image": "https://images.pexels.com/photos/2362875/pexels-photo-2362875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 10,
+    "name": "Movie Book",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.pexels.com/photos/4996868/pexels-photo-4996868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 11,
+    "name": "Language Book",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "price": 30,
+    "category": "Language",
+    "image": "https://images.pexels.com/photos/459791/pexels-photo-459791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
+]
