@@ -10,7 +10,7 @@
     "build": "cd Frontend && npm install && npx vite build"
   },
   "repository": {
-    "type": "git",c
+    "type": "git",
     "url": "git+https://github.com/pravinbale/BookStoreApp.git"
   },
   "author": "pravin bale",
