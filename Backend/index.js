@@ -6,6 +6,7 @@ import userRoute from "./route/user.routes.js";
 import bookRoute from "./route/book.routes.js";
 import contactRoute from "./route/contact.route.js";
 import queryRoute from "./route/query.routes.js";
+import path from "path";
 
 const app = express();
 dotenv.config(); // Ensure dotenv is configured before using process.env
@@ -30,6 +31,15 @@ app.use("/book", bookRoute);
 app.use("/user", userRoute);
 app.use("/contact", contactRoute);
 app.use("/query", queryRoute);
+
+//deloyment code
+if (process.env.NODE_ENV === "production") {
+  const dirPath = path.resolve();
+  app.use(express.static("Frontend/dist"));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(dirPath, "Frontend", "dist", "index.html"));
+  });
+}
 
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
