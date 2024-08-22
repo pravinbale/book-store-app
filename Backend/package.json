@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "node index.js",
     "start": "node index.js",
-    "build": "npm install && npm install --prefix FRONT_END && npm run build --prefix FRONT_END"
+    "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
   },
   "repository": {
     "type": "git",
