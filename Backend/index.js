@@ -19,10 +19,7 @@ const ConnString = process.env.MONGODB_URI;
 
 // Connect to MongoDB Atlas
 mongoose
-  .connect(ConnString, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(ConnString)
   .then(() => console.log("Connected to MongoDB Atlas"))
   .catch((error) => console.log("Connection Failed: " + error));
 
@@ -32,7 +29,7 @@ app.use("/user", userRoute);
 app.use("/contact", contactRoute);
 app.use("/query", queryRoute);
 
-//deloyment code
+// Deployment code
 if (process.env.NODE_ENV === "production") {
   const dirPath = path.resolve();
   app.use(express.static("Frontend/dist"));
